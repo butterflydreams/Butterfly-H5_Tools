@@ -13,7 +13,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url))
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "@configs": fileURLToPath(new URL("./src/configs", import.meta.url))
     }
   }
 });
