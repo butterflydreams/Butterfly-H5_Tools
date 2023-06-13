@@ -1,4 +1,5 @@
 import "./configs/reset.css";
+import "./configs/border.css";
 
 import { createApp } from "vue";
 import App from "./App.vue";
