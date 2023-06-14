@@ -45,7 +45,7 @@ h6 {
 </style>
 
 <template>
-  <h1>h1: Hello, guys! this is a tools page!</h1>
+  <h1>h1: Hi, guys! This’s a tools page!</h1>
   <h2>h2: This is h2 data.</h2>
   <h3>h3: This is h3 data.</h3>
   <h4>h4: This is h4 data.</h4>
@@ -59,5 +59,6 @@ h6 {
 <script setup lang="ts">
 const OnButtonClick = function () {
   console.log("You have clicked a button!");
+  alert("You have clicked a button!");
 };
 </script>
